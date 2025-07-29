@@ -1,4 +1,7 @@
 # app.py
+# This code sets up a Flask API with endpoints for retrieving users, 
+# products, orders, and order items, as well as creating new orders and order items.
+
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from models import db, User, Product, Order, OrderItem
